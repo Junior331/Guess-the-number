@@ -3,6 +3,28 @@
   padding: 0;
   background: #000;
 }
+#pauseplay{
+  display: contents;
+
+}
+#play{
+  width: 65px;
+  height: 36px;
+  font-size: 17px;
+  color: #eee;
+  margin-top: 7px;
+  margin-left: 7px;
+  border-radius: 10px;
+}
+#pause{
+  width: 65px;
+  height: 36px;
+  font-size: 17px;
+  color: #eee;
+  margin-top: 7px;
+  margin-left: 7px;
+  border-radius: 10px;
+}
 div{
   display: flex;
   justify-content: center;
@@ -47,7 +69,6 @@ div{
 
   }
   #tempo{
-
     font-size: 30px;
     color: darkred;
 

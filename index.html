@@ -7,9 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="./assets/js/script.js"></script>
-    <title>Document</title>
+    <title>Guess The Number</title>
 </head>
+
 <body onload="start();">
+    <div id="pauseplay">
+        <input type="button" value="play" id="play">
+        <input type="button" value="pause" id="pause">
+
+    </div>
     <div id="tempo"></div>
     <div class="container">
         <div id="number1">0</div>
@@ -19,7 +25,8 @@
     </div>
     <button onclick="verificar()">verificar</button>
     <div>
-         <p class="hits">0</p>
+        <p class="hits">0</p>
     </div>
 </body>
+
 </html>
