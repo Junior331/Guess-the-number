@@ -38,7 +38,7 @@ function start() {
             clock = "0" + clock;
         }
         tempo.innerText = clock;
-        setTimeout('start();', 1800);
+        setTimeout('start();', 1850);
     }
 }
 
@@ -59,8 +59,8 @@ function start() {
 // }
 
 // BOTAO DE PAUSE 
-function iniciarJogo(){
-    var iniciar = document.getElementById("")
+function pause(){
+    alert("Para voltar ao jogo aperte OK");
 }
 // function pausar(){
     
