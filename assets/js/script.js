@@ -6,10 +6,11 @@ function verificar() {
     if (number1 == number2) {
         // alert("Parabens você sabe o que e um número");
         clock = 11;
+        placar();
+        start();
     } else {
         alert("Volte para a escola Urgente!!");
     }
-    // placar();
     start();
     reset();
 }
@@ -44,19 +45,19 @@ function start() {
 
 // PLACAR 
 
-// function placar(){
-//     setTimeout(function () {
-//         var hits = document.querySelector(".hits");
-//         var valorInteiro = parseInt(hits.textContent);
-//         var soma = parseInt(valorInteiro) + parseInt(01);
-//         hits.textContent = soma;
-//     }, 1);
-//     var hits = document.querySelector(".hits");
-//     hits.classList.add("animationContador");
-//     setTimeout(function () {
-//         hits.classList.remove("animationContador")
-//     }, 440)
-// }
+function placar(){
+    setTimeout(function () {
+        var hits = document.querySelector(".hits");
+        var valorInteiro = parseInt(hits.textContent);
+        var soma = parseInt(valorInteiro) + parseInt(01);
+        hits.textContent = soma;
+    }, 1);
+    var hits = document.querySelector(".hits");
+    hits.classList.add("animationContador");
+    setTimeout(function () {
+        hits.classList.remove("animationContador")
+    }, 440)
+}
 
 // BOTAO DE PAUSE 
 function pause(){

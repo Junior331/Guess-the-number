@@ -1,13 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
   background: #000;
 }
-#pauseplay{
+
+#pauseplay {
   display: contents;
 
 }
-#btn{
+
+#btn {
   width: 75px;
   height: 35px;
   font-size: 13px;
@@ -15,65 +17,120 @@
   /* margin-top: 14px; */
   margin-left: 11px;
 }
-div{
+
+div {
   display: flex;
   justify-content: center;
   margin-top: 35px;
 
 }
+
 #number1 {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: 0.1px solid #000;
+  font-size: 100px;
+  line-height: 200px;
+  background-color: #eee;
+  float: left;
+  margin-right: 10px;
+  background-color: aqua;
+  border-radius: 20px;
+
+}
+
+#number2 {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: 0.1px solid #000;
+  font-size: 100px;
+  background-color: #eee;
+  margin-right: 9px;
+  margin-top: 35px;
+  background-color: aqua;
+  border-radius: 20px;
+
+}
+
+button {
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+  color: #eee;
+  margin-top: 14px;
+  margin-left: 423px;
+  border-radius: 10px;
+
+}
+
+#tempo {
+  font-size: 30px;
+  color: darkred;
+
+
+}
+
+.hits {
+  color: blue;
+  height: 35px;
+  width: 80px;
+  display: flex;
+  border-radius: 40px;
+  font-size: 30px;
+  align-items: center;
+  border: 5px solid #610606db;
+  justify-content: center;
+  /* background-color: white; */
+
+}
+
+@media(max-width:700px) {
+  div {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: -100px;
+    margin-bottom: 50px;
+
+  }
+
+  #number1 {
+    width: 170px;
+    height: 170px;
     text-align: center;
     border: 0.1px solid #000;
     font-size: 100px;
     line-height: 200px;
-    background-color: #eee;
-    float: left;
-    margin-right: 10px;
+    /* background-color: #eee; */
+    /* float: left; */
+    margin-right: 23px;
     background-color: aqua;
     border-radius: 20px;
 
   }
-    #number2 {
-      width: 200px;
-      height: 200px;
-      text-align: center;
-      border: 0.1px solid #000;
-      font-size: 100px;
-      background-color: #eee;
-      margin-right: 9px;
-      margin-top: 35px;
-      background-color: aqua;
-      border-radius: 20px;
 
+  #number2 {
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    border: 0.1px solid #000;
+    font-size: 100px;
+    background-color: #eee;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: aqua;
+    border-radius: 20px;
   }
-   button {
+
+  button {
     width: 160px;
     height: 40px;
     font-size: 20px;
     color: #eee;
     margin-top: 14px;
-    margin-left: 423px;
+    margin-left: 140px;
     border-radius: 10px;
-
   }
-  #tempo{
-    font-size: 30px;
-    color: darkred;
-
-
-  }
-  .hits{
-    color: blue;
-    height: 35px;
-    width: 80px;
-    display: flex;
-    border-radius: 40px;
-    font-size: 30px;
-    align-items: center;
-    border: 5px solid #610606db;
-    justify-content: center;
-    /* background-color: white; */
-
-  }
+}
